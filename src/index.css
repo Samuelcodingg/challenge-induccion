@@ -18,8 +18,12 @@
 
 /*utilities*/
 
+.fw-700 {
+  font-weight: 700;
+}
+
 .fw-800 {
-  font-weight: 800 !important;
+  font-weight: 800 ;
 }
 
 .gradient-color {
@@ -30,4 +34,8 @@
 
 .bg-shapes {
   background-image: url('./components/homepage/bg-shapes.png');
+}
+
+.bg-2 {
+  background-color: #F2F2F2;
 }
