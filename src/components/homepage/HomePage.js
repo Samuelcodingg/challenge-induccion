@@ -1,12 +1,14 @@
 import React from 'react';
 import { Navbar } from '../ui/Navbar';
 
+import ilustration from './Illustration.png';
+
 export const HomePage = () => {
   return (
     <div>
         <Navbar />
 
-        <div className='mt-5'>
+        <div className='mt-5 bg-shapes'>
             <div className="container">
                 <div className="row">
                     <div className='col-md-6 mx-auto'>
@@ -24,6 +26,9 @@ export const HomePage = () => {
                                 <button className='btn btn-dark px-3'>
                                     Learn more
                                 </button>
+                            </div>
+                            <div>
+                                <img src={ilustration} alt='illustration' className='img-fluid' />
                             </div>
                         </div>
                         
