@@ -1,4 +1,5 @@
 import React from 'react';
+import { Footer } from '../ui/Footer';
 
 import { Navbar } from '../ui/Navbar';
 import { HowSection } from './HowSection';
@@ -19,6 +20,8 @@ export const HomePage = () => {
         <HowSection />
 
         <PartnersSection />
+
+        <Footer />
     </div>
   )
 }
