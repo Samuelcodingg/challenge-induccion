@@ -1,5 +1,5 @@
 import React from 'react';
-import ilustration from './Illustration.png';
+import ilustration from './img/Illustration.png';
 
 export const LandingFirst = () => {
   return (

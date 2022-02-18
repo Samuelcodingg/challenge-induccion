@@ -18,6 +18,14 @@
 
 /*utilities*/
 
+.color-grey {
+  color: #999999;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
 .fw-700 {
   font-weight: 700;
 }
@@ -33,13 +41,38 @@
 }
 
 .bg-shapes {
-  background-image: url('./components/homepage/bg-shapes.png');
+  background-image: url('./components/homepage/img/bg-shapes.png');
 }
 
 .bg-2 {
   background-color: #F2F2F2;
 }
 
+.bg-333 {
+  background-color: #333333 !important;
+}
+
+.border-4c {
+  border: 4px solid #4C4C4C !important;
+}
+
 .goup-100 {
   top: -100px;
+}
+
+.ceo-size {
+  height: 80px;
+}
+
+.bg-contact {
+  background-image: url('./components/homepage/img/background-contact.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .w-100-responsive {
+    width: 100%;
+  }
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Card } from '../ui/Card';
 
-import initial from './initial.png';
-import discover from './discover.png';
-import contracting from './contracting.png';
-import prototyping from './prototyping.png';
-import design from './design.png';
-import develop from './develop.png';
+import initial from './img/initial.png';
+import discover from './img/discover.png';
+import contracting from './img/contracting.png';
+import prototyping from './img/prototyping.png';
+import design from './img/design.png';
+import develop from './img/develop.png';
 
 export const HowSection = () => {
   return (

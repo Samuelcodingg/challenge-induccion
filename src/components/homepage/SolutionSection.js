@@ -1,7 +1,7 @@
 import React from 'react';
 
-import simpleProject from './simple-project.png';
-import iconNormal from './icon-normal-div.png';
+import simpleProject from './img/simple-project.png';
+import iconNormal from './img/icon-normal-div.png';
 
 export const SolutionSection = () => {
     return (
@@ -26,7 +26,7 @@ export const SolutionSection = () => {
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.
                         </p>
 
-                        <div className='shadow p-3 d-flex justify-content-between align-items-center mt-4 bg-white'>
+                        <div className='shadow rounded p-3 d-flex justify-content-between align-items-center mt-4 bg-white'>
                             <div>
                                 <h4 className='fw-700'>Building the Simple ecosystem</h4>
                                 <p className='text-secondary mb-0'>
@@ -37,7 +37,7 @@ export const SolutionSection = () => {
                                 <img src={iconNormal} alt='icon-normal' className='img-fluid' />
                             </div>
                         </div>
-                        <div className='shadow p-3 d-flex justify-content-between align-items-center mt-4 bg-white'>
+                        <div className='shadow rounded p-3 d-flex justify-content-between align-items-center mt-4 bg-white'>
                             <div>
                                 <h4 className='fw-700'>Building the Simple ecosystem</h4>
                                 <p className='text-secondary mb-0'>
@@ -48,7 +48,7 @@ export const SolutionSection = () => {
                                 <img src={iconNormal} alt='icon-normal' className='img-fluid' />
                             </div>
                         </div>
-                        <div className='shadow p-3 d-flex justify-content-between align-items-center mt-4 bg-white'>
+                        <div className='shadow rounded p-3 d-flex justify-content-between align-items-center mt-4 bg-white'>
                             <div>
                                 <h4 className='fw-700'>Building the Simple ecosystem</h4>
                                 <p className='text-secondary mb-0'>

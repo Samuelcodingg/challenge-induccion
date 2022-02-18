@@ -1,7 +1,9 @@
 import React from 'react';
+
 import { Navbar } from '../ui/Navbar';
 import { HowSection } from './HowSection';
 import { LandingFirst } from './LandingFirst';
+import { PartnersSection } from './PartnersSection';
 import { SolutionSection } from './SolutionSection';
 
 
@@ -15,6 +17,8 @@ export const HomePage = () => {
         <SolutionSection />
         
         <HowSection />
+
+        <PartnersSection />
     </div>
   )
 }
