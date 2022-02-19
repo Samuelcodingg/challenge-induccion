@@ -3,6 +3,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  transition: all 0.3s ease-in-out;
 }
 
 .logo {
@@ -75,4 +76,8 @@
   .w-100-responsive {
     width: 100%;
   }
+}
+
+#navbar {
+  
 }

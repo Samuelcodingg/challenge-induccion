@@ -2,8 +2,9 @@ import React from 'react';
 import ilustration from './img/Illustration.png';
 
 export const LandingFirst = () => {
-  return (
-    <div className='mt-5 bg-shapes'>
+
+    return (
+        <div className='mt-5 bg-shapes pt-5'>
             <div className="container">
                 <div className="row">
                     <div className='col-md-6 mx-auto'>
@@ -26,10 +27,10 @@ export const LandingFirst = () => {
                                 <img src={ilustration} alt='illustration' className='img-fluid' />
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
         </div>
-  )
+    )
 }
