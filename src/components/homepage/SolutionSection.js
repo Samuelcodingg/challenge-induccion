@@ -26,7 +26,7 @@ export const SolutionSection = () => {
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.
                         </p>
 
-                        <div className='shadow rounded p-3 d-flex justify-content-between align-items-center mt-4 bg-white'>
+                        <div className='shadow rounded p-3 d-flex justify-content-between align-items-center mt-4 bg-white hover-bg'>
                             <div>
                                 <h4 className='fw-700'>Building the Simple ecosystem</h4>
                                 <p className='text-secondary mb-0'>
@@ -34,10 +34,10 @@ export const SolutionSection = () => {
                                 </p>
                             </div>
                             <div>
-                                <img src={iconNormal} alt='icon-normal' className='img-fluid' />
+                                <img src={iconNormal} alt='icon-normal' className='img-fluid hover-rotate' />
                             </div>
                         </div>
-                        <div className='shadow rounded p-3 d-flex justify-content-between align-items-center mt-4 bg-white'>
+                        <div className='shadow rounded p-3 d-flex justify-content-between align-items-center mt-4 bg-white hover-bg'>
                             <div>
                                 <h4 className='fw-700'>Building the Simple ecosystem</h4>
                                 <p className='text-secondary mb-0'>
@@ -45,10 +45,10 @@ export const SolutionSection = () => {
                                 </p>
                             </div>
                             <div>
-                                <img src={iconNormal} alt='icon-normal' className='img-fluid' />
+                                <img src={iconNormal} alt='icon-normal' className='img-fluid hover-rotate' />
                             </div>
                         </div>
-                        <div className='shadow rounded p-3 d-flex justify-content-between align-items-center mt-4 bg-white'>
+                        <div className='shadow rounded p-3 d-flex justify-content-between align-items-center mt-4 bg-white hover-bg'>
                             <div>
                                 <h4 className='fw-700'>Building the Simple ecosystem</h4>
                                 <p className='text-secondary mb-0'>
@@ -56,7 +56,7 @@ export const SolutionSection = () => {
                                 </p>
                             </div>
                             <div>
-                                <img src={iconNormal} alt='icon-normal' className='img-fluid' />
+                                <img src={iconNormal} alt='icon-normal' className='img-fluid hover-rotate' />
                             </div>
                         </div>
                     </div>

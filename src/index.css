@@ -78,6 +78,11 @@
   }
 }
 
-#navbar {
-  
+.hover-bg:hover {
+  background-color: #EAEAEA !important;
+  cursor: pointer;
+}
+
+.hover-bg:hover .hover-rotate {
+  transform: rotate(405deg);
 }
