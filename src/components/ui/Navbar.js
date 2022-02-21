@@ -41,8 +41,16 @@ export const Navbar = () => {
           </div>
         </Link>
         <div>
-          <button className="btn btn-light me-4">Sign in</button>
-          <button className="btn btn-dark" id='signup'>Sign up &#8594;</button>
+          <Link
+            to="/auth/login"
+          >
+            <button className="btn btn-light me-4">Sign in</button>
+          </Link>
+          <Link
+            to="/auth/register"
+          >
+            <button className="btn btn-dark" id='signup'>Sign up &#8594;</button>
+          </Link>
         </div>
       </nav>
     </div>
