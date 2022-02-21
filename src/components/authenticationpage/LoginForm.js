@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const LoginForm = () => {
   return (
@@ -47,6 +48,7 @@ export const LoginForm = () => {
                             Continue with Google
                         </button>
                     </div>
+                    <p className='text-center text-secondary mt-3'>Don't you have an account? <Link to="/auth/register">Sign up</Link></p>
                 </form>
             </div>
         </div>
