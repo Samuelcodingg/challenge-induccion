@@ -24,13 +24,17 @@ export const RegisterForm = () => {
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
-                text: 'Please fill in all fields'
+                text: 'Please fill in all fields',
+                showConfirmButton: false,
+                timer: 1500
             });
         } else {
             Swal.fire({
                 icon: 'success',
                 title: 'Registration Successful',
-                text: 'You are now registered'
+                text: 'You are now registered',
+                showConfirmButton: false,
+                timer: 1500
             });
 
             setValues({

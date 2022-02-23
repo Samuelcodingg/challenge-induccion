@@ -23,13 +23,17 @@ export const LoginForm = () => {
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
-                text: 'Please fill in all fields'
+                text: 'Please fill in all fields',
+                showConfirmButton: false,
+                timer: 1500
             });
         } else {
             Swal.fire({
                 icon: 'success',
                 title: 'Login Successful',
-                text: 'You are now logged in'
+                text: 'You are now logged in',
+                showConfirmButton: false,
+                timer: 1500
             });
 
         
